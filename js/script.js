@@ -131,7 +131,7 @@ for (var i = 0; i < 1000; i++) {
 
 
 // This causes a loop: function animate() {requestAnimationFrame(animate);
-function animate() {
+(function animate() {
   requestAnimationFrame(animate);
 
   // This clears the screen every time the loop runs
@@ -141,5 +141,4 @@ function animate() {
   for (var i = 0; i < circleArray.length; i++) {
     circleArray[i].update();
   }
-}
-animate();
+}) ();
