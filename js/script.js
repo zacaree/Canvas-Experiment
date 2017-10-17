@@ -22,9 +22,9 @@ var c = canvas.getContext('2d');
 
 
 
-/* ************************** */
-/* Object Oriented JavaScript */
-/* ************************** */
+/* **** */
+/* Main */
+/* **** */
 
 // var minRadius = 4;
 var maxRadius = 50;
